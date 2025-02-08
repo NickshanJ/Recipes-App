@@ -1,7 +1,7 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 
-const URL = process.env.DB;
+const URL = 'mongodb+srv://Nickshan:WhOvDeT4cPUKuy02@recipecluster.zehbj.mongodb.net/?retryWrites=true&w=majority&appName=recipeCluster';
 
 const connectDB = async () => {
   try {
